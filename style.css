@@ -99,4 +99,63 @@ button:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+.nube {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+header button {
+    width: auto;
+    margin: 0;
+    padding: 10px 18px;
+}
+
+.subir {
+    background: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.subir input {
+    margin-top: 15px;
+}
+
+.archivo {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.archivo div {
+    flex: 1;
+}
+
+.archivo p {
+    color: #777;
+    margin-top: 5px;
+}
+
+.archivo button {
+    width: auto;
+    margin: 0;
+    padding: 10px 15px;
+}
 ```
